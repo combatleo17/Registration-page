@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.whole{
+    height: auto;
+    width: 100%;
+}
+
+.flx{
+    display: flex;
+    flex: 2;
+    position: absolute;
+    width: 100%;
+
+}
+
+
+
+.rgtn{
+    text-align: center;
+   
+}
+.box{
+   display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: left; 
+}
+
+.box2{
+    text-align: left;
+    padding-left: 15px;
+}
+
+.button{
+background-color: rgb(0, 134, 192);
+color: white;
+padding: 20px 30px;
+margin: 20px 10px;
+border: none;
+cursor: pointer;
+width: 70%;
+text-align: center;
+border-radius: 15px;
+}
+
+.button:hover{
+    background-color: rgb(0, 98, 139);
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(209, 242, 255);
+ 
+}
+
+.image{
+    width: 50%;
+    position: relative;
+   
+     display: flex;
+     justify-content: center;
+}
+
+.container{
+    width: 50%;
+    position: relative;
+   
+
+}
+
+.gender{
+    text-align: left;
+    padding-left: 1px;
+}
+.seperate{
+    display: flex;
+    width: 100%;
+}
+
+.seperate1{
+   margin: 20px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.seperate2{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+.label1{
+    border-color: whitesmoke;
+}
+
